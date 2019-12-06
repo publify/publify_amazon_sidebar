@@ -72,10 +72,6 @@ Rails/ApplicationRecord:
   Exclude:
     - 'spec/dummy/db/migrate/*'
 
-# TODO: Re-enable once advice is more targeted
-Rails/BulkChangeTable:
-  Enabled: false
-
 # Manifest tasks do not need environment
 Rails/RakeEnvironment:
   Exclude:
@@ -110,15 +106,6 @@ Style/EachWithObject:
 
 # Allows format strings with: format, sprintf or percent.
 Style/FormatString:
-  Enabled: false
-
-# This cop has too many false positives
-# TODO: Re-enable once fixed
-Style/FormatStringToken:
-  Enabled: false
-
-# TODO: Re-enable?
-Style/NumericPredicate:
   Enabled: false
 
 # Not all objects that implement #size implement #empty?
