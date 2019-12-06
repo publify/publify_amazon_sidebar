@@ -108,6 +108,11 @@ Rails/ApplicationRecord:
 Rails/BulkChangeTable:
   Enabled: false
 
+# Manifest tasks do not need environment
+Rails/RakeEnvironment:
+  Exclude:
+    - 'lib/tasks/manifest.rake'
+
 # Migrations should not do validations in general?
 Rails/SkipsModelValidations:
   Exclude:
