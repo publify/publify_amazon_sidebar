@@ -6,6 +6,7 @@ source "https://rubygems.org"
 gemspec
 
 if File.exist? File.join("..", "publify_core")
+  # dependabot-ignore try this
   gem "publify_core", path: "../publify_core"
 else
   gem "publify_core", git: "https://github.com/publify/publify_core.git"
