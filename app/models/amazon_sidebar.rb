@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 class AmazonSidebar < Sidebar
-  description \
-    "Adds sidebar links to any Amazon.com books linked in the body of the page"
+  description "Adds sidebar links to any Amazon.com books linked in the body of the page"
   setting :title, "Cited books"
   setting :associate_id, "justasummary-20"
   setting :maxlinks, 4
