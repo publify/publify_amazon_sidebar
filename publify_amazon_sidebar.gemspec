@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.files = File.open("Manifest.txt").readlines.map(&:chomp)
 
-  s.add_dependency "publify_core", "~> 9.2.10"
+  s.add_dependency "publify_core", "~> 10.0.0"
 
   s.add_development_dependency "rspec-rails", "~> 6.0"
   s.add_development_dependency "rubocop", "~> 1.52.1"
