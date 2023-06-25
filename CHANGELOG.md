@@ -1,9 +1,10 @@
 # Changelog
 
-## Unreleased
+## 10.0.0 / 2023-06-25
 
-* Drop support for Ruby 2.4
+* Support Ruby 2.7, 3.0, 3.1 and 3.2
 * Update dependencies
+* Depend on `publify_core` 10.0.0
 
 ## 9.2.10 / 2023-01-08
 
