@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rubocop-factory_bot", "~> 2.23.1"
   s.add_development_dependency "rubocop-performance", "~> 1.18.0"
   s.add_development_dependency "rubocop-rails", "~> 2.20.2"
-  s.add_development_dependency "rubocop-rspec", "~> 2.22.0"
+  s.add_development_dependency "rubocop-rspec", "~> 2.23.1"
   s.add_development_dependency "simplecov", "~> 0.22.0"
   s.add_development_dependency "sqlite3", "~> 1.6"
   s.metadata["rubygems_mfa_required"] = "true"
