@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency "publify_core", "~> 10.0.0"
 
   s.add_development_dependency "rspec-rails", "~> 6.0"
-  s.add_development_dependency "rubocop", "~> 1.56.1"
+  s.add_development_dependency "rubocop", "~> 1.57.0"
   s.add_development_dependency "rubocop-factory_bot", "~> 2.24.0"
   s.add_development_dependency "rubocop-performance", "~> 1.19.0"
   s.add_development_dependency "rubocop-rails", "~> 2.21.2"
