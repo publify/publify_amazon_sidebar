@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rubocop", "~> 1.57.1"
   s.add_development_dependency "rubocop-factory_bot", "~> 2.24.0"
   s.add_development_dependency "rubocop-performance", "~> 1.19.0"
-  s.add_development_dependency "rubocop-rails", "~> 2.21.2"
+  s.add_development_dependency "rubocop-rails", "~> 2.23.0"
   s.add_development_dependency "rubocop-rspec", "~> 2.24.1"
   s.add_development_dependency "simplecov", "~> 0.22.0"
   s.add_development_dependency "sqlite3", "~> 1.6"
