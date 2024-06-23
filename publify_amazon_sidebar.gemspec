@@ -22,10 +22,12 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rspec-rails", "~> 6.0"
   s.add_development_dependency "rubocop", "~> 1.64.1"
+  s.add_development_dependency "rubocop-capybara", "~> 2.21.0"
   s.add_development_dependency "rubocop-factory_bot", "~> 2.25.0"
   s.add_development_dependency "rubocop-performance", "~> 1.21.1"
   s.add_development_dependency "rubocop-rails", "~> 2.25.0"
-  s.add_development_dependency "rubocop-rspec", "~> 2.26.0"
+  s.add_development_dependency "rubocop-rspec", "~> 3.0.1"
+  s.add_development_dependency "rubocop-rspec_rails", "~> 2.30.0"
   s.add_development_dependency "simplecov", "~> 0.22.0"
   s.add_development_dependency "sqlite3", "~> 1.6"
   s.metadata["rubygems_mfa_required"] = "true"
