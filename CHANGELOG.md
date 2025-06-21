@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+* Support Ruby 3.2, 3.3 and 3.4
+
 ## 10.0.0 / 2023-06-25
 
 * Support Ruby 2.7, 3.0, 3.1 and 3.2
