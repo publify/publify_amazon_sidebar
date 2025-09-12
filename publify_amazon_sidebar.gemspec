@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop", "~> 1.77.0"
   spec.add_development_dependency "rubocop-capybara", "~> 2.21.0"
   spec.add_development_dependency "rubocop-factory_bot", "~> 2.27.1"
-  spec.add_development_dependency "rubocop-performance", "~> 1.23.1"
+  spec.add_development_dependency "rubocop-performance", "~> 1.26.0"
   spec.add_development_dependency "rubocop-rails", "~> 2.29.1"
   spec.add_development_dependency "rubocop-rspec", "~> 3.4.0"
   spec.add_development_dependency "rubocop-rspec_rails", "~> 2.30.0"
