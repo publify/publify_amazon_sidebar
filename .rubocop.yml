@@ -4,7 +4,7 @@ inherit_mode:
   merge:
     - Exclude
 
-require:
+plugins:
   - rubocop-capybara
   - rubocop-factory_bot
   - rubocop-performance
@@ -22,6 +22,14 @@ AllCops:
 
 Rails:
   Enabled: true
+
+# Require tests to specify whether an element is a link or a button
+Capybara/ClickLinkOrButtonStyle:
+  EnforcedStyle: strict
+
+# Match style of regular expectations
+Capybara/NegationMatcher:
+  EnforcedStyle: not_to
 
 # Put development dependencies in the gemspec so rubygems.org knows about them
 Gemspec/DevelopmentDependencies:
@@ -103,6 +111,10 @@ Rails/SkipsModelValidations:
   Exclude:
     - 'spec/dummy/db/migrate/*'
 
+# Spec type inference is disabled, so this cop must be disabled too.
+RSpecRails/InferredSpecType:
+  Enabled: false
+
 # Allow the use of 'and' 'or' in control structures.
 Style/AndOr:
   EnforcedStyle: conditionals
@@ -162,14 +174,6 @@ Style/StringLiteralsInInterpolation:
 # Prefer symbols to look like symbols
 Style/SymbolArray:
   EnforcedStyle: brackets
-
-# Prefer consistent lines for multi-line arrays
-Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: comma
-
-# Prefer consistent lines for multi-line hashes
-Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: comma
 
 # Allow small arrays of words with quotes
 Style/WordArray:
