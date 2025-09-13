@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "appraisal", "~> 2.5"
   spec.add_development_dependency "rspec-rails", "~> 6.0"
-  spec.add_development_dependency "rubocop", "~> 1.77.0"
+  spec.add_development_dependency "rubocop", "~> 1.80.2"
   spec.add_development_dependency "rubocop-capybara", "~> 2.21.0"
   spec.add_development_dependency "rubocop-factory_bot", "~> 2.27.1"
   spec.add_development_dependency "rubocop-performance", "~> 1.26.0"
