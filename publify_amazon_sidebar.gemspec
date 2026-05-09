@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["rubygems_mfa_required"] = "true"
 
-  spec.files = File.open("Manifest.txt").readlines.map(&:chomp)
+  spec.files = File.readlines("Manifest.txt").map(&:chomp)
 
   spec.add_dependency "publify_core", "~> 10.0.0"
 
