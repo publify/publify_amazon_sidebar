@@ -18,13 +18,13 @@ Gem::Specification.new do |spec|
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["rubygems_mfa_required"] = "true"
 
-  spec.files = File.open("Manifest.txt").readlines.map(&:chomp)
+  spec.files = File.readlines("Manifest.txt").map(&:chomp)
 
   spec.add_dependency "publify_core", "~> 10.0.0"
 
   spec.add_development_dependency "appraisal", "~> 2.5"
   spec.add_development_dependency "rspec-rails", "~> 7.1"
-  spec.add_development_dependency "rubocop", "~> 1.82.1"
+  spec.add_development_dependency "rubocop", "~> 1.86.0"
   spec.add_development_dependency "rubocop-capybara", "~> 2.22.1"
   spec.add_development_dependency "rubocop-factory_bot", "~> 2.28.0"
   spec.add_development_dependency "rubocop-performance", "~> 1.26.0"

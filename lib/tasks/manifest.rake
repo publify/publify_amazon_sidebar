@@ -12,7 +12,7 @@ namespace :manifest do
   end
 
   def manifest_files
-    File.open("Manifest.txt").readlines.map(&:chomp)
+    File.readlines("Manifest.txt").map(&:chomp)
   end
 
   desc "Create manifest"
