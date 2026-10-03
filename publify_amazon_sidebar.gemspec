@@ -21,16 +21,4 @@ Gem::Specification.new do |spec|
   spec.files = File.readlines("Manifest.txt").map(&:chomp)
 
   spec.add_dependency "publify_core", "~> 10.0.0"
-
-  spec.add_development_dependency "appraisal", "~> 2.5"
-  spec.add_development_dependency "rspec-rails", "~> 7.1"
-  spec.add_development_dependency "rubocop", "~> 1.91.0"
-  spec.add_development_dependency "rubocop-capybara", "~> 3.0.0"
-  spec.add_development_dependency "rubocop-factory_bot", "~> 2.28.0"
-  spec.add_development_dependency "rubocop-performance", "~> 1.26.0"
-  spec.add_development_dependency "rubocop-rails", "~> 2.36.0"
-  spec.add_development_dependency "rubocop-rspec", "~> 3.10.2"
-  spec.add_development_dependency "rubocop-rspec_rails", "~> 2.32.0"
-  spec.add_development_dependency "simplecov", "~> 1.2.0"
-  spec.add_development_dependency "sqlite3", "~> 2.9"
 end
