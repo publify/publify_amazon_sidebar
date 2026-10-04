@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.files = File.readlines("Manifest.txt").map(&:chomp)
 
-  spec.add_dependency "publify_core", "~> 10.0.0"
+  spec.add_dependency "publify_core", "~> 11.0.0"
 end
