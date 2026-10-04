@@ -82,11 +82,6 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
 
-# Initial schema has a very large change method
-Metrics/MethodLength:
-  Exclude:
-    - 'spec/dummy/db/migrate/20160712061341_initial_schema.publify_core_engine.rb'
-
 Performance/StartWith:
   AutoCorrect: true
 
