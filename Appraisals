@@ -16,3 +16,11 @@ end
 appraise "rails_72" do
   gem "rails", "~> 7.2.0"
 end
+
+appraise "rails_80" do
+  gem "rails", "~> 8.0.0"
+end
+
+appraise "rails_81" do
+  gem "rails", "~> 8.1.0"
+end
