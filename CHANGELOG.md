@@ -21,7 +21,7 @@
    * Switch to weekly dependabot updates ([#116] by [mvz])
    * Update RuboCop configuration and autocorrect new offenses ([#122] by [mvz])
    * Remove scheduled CI runs ([#130] by [mvz])
-   * Remove permissions from GITHUB_TOKEN in CI ([#157] by [mvz])
+   * Remove permissions from `GITHUB_TOKEN` in CI ([#157] by [mvz])
    * Loosen development dependencies ([#170] by [mvz])
    * Downgrade rspec-rails ([#171] by [mvz])
 
