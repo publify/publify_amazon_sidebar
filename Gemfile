@@ -8,7 +8,7 @@ gemspec
 group :development, :test do
   gem "appraisal", "~> 2.5"
   gem "rake-manifest", "~> 0.2.0"
-  gem "rspec-rails", "~> 7.1"
+  gem "rspec-rails", "~> 8.0"
   gem "rubocop", "~> 1.91"
   gem "rubocop-capybara", "~> 3.0"
   gem "rubocop-factory_bot", "~> 2.28"
